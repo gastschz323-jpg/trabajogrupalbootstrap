@@ -1,0 +1,12 @@
+main{
+    background-color: aliceblue !important;
+}
+
+header{
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    background-image: url("https://inmendoza.com/wp-content/uploads/2021/09/Bonfanti-InMendoza-24.jpg");
+    background-size: cover;
+    background-position: center;
+}
