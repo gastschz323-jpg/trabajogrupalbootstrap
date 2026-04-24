@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TLP</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/puntoturisticos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <!-- Menu -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Ciudad de Mendoza</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Introduccion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active" href="puntoturistico.html">Pustos Turisticos </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="gastronomia.html">Gastronomia</a>
+                        </li>
+                    </ul>
+                    </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Carrusel -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="max-height: 500px; overflow: hidden;">
+                    <img src="assets/img/parque-aconcagua.jpg" class="d-block w-100"
+                        style="max-height: 400px; object-fit: cover;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Parque Aconcagua</h5>
+                        <p>Alberga al gigante de los andes.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="max-height: 500px; overflow: hidden;">
+                    <img src="assets/img/uspallata.jpg" class="d-block w-100"
+                        style="max-height: 400px; object-fit: cover;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Uspallata</h5>
+                        <p>Un pueblo con historia.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="max-height: 500px; overflow: hidden;">
+                    <img src="assets/img/puente-del-inca.jpg" class="d-block w-100"
+                        style="max-height: 400px; object-fit: cover;" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Puente del Inca</h5>
+                        <p>Impresionante monumento natural de la provincia.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Tarjetas horizontales -->
+        <div class="container mt-5">
+            <h3>Principales puntos turísticos de la Ciudad de Mendoza</h3>
+        </div>
+
+        <div class="container mt-5">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">1. Parque General San Martín</h5>
+                            <p class="card-text">El Parque General San Martín es el pulmón verde de Mendoza. Diseñado
+                                por el paisajista francés Carlos Thays, se considera el parque artificial más grande de
+                                Sudamérica. Es el lugar elegido para realizar actividades deportivas y disfrutar de
+                                caminatas.
+                                Dentro del parque, hay numerosos puntos de interés cultural y artístico. Los portones de
+                                entrada son un ícono del lugar, al igual que la Fuente de los Continentes y el lago.
+                                También, destaca el Museo Cornelio Moyano, un ejemplo de arquitectura moderna en el
+                                estilo racionalista y espacio para ir con niños y conocer más sobre la fauna y flora
+                                autóctona. Además, el parque cuenta con diversas opciones gastronómicas, como cafés,
+                                cervecerías artesanales, lugares para disfrutar de jugos de frutas y camioncitos de
+                                helados.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/parque-general-san-martin.jpg" class="img-fluid rounded-end" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/img/cerro-de-la-gloria.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">2. Cerro La Gloria</h5>
+                            <p class="card-text">El Cerro de la Gloria se ubica en el Parque General San Martín. Su
+                                nombre fue cambiado oficialmente en 1913 para rendir homenaje al Ejército de los Andes.
+                                Llegar a la cima es fácil, con senderos peatonales (¡preparate para caminar!) y caminos
+                                pavimentados para subir motorizado, que cuentan con miradores. Hay estacionamiento
+                                disponible para vehículos y micros, así como servicios sanitarios y un puesto policial
+                                en la zona.
+                                Al arribar se erige el Monumento al Ejército de Los Andes, inaugurado en 1914 para
+                                conmemorar el cruce de los Andes por el general José de San Martín. Esta obra del
+                                escultor Juan Manuel Ferrari incluye una estatua ecuestre de San Martín, rodeada de
+                                figuras que representan momentos clave de la gesta libertadora.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">3. Chacras de Coria</h5>
+                            <p class="card-text">Chacras de Coria, un pintoresco pueblo mendocino, ubicado en el
+                                departamento de Luján de Cuyo, debe su nombre a la familia Coria que llegó al lugar hace
+                                varios años atrás. La Plaza Gerónimo Espejo, fundada en 1902, es el corazón del lugar y
+                                honra a un líder de la campaña libertadora junto al Gral. San Martín.
+                                La Parroquia Nuestra Señora del Perpetuo Socorro, inaugurada en 1935, es el centro
+                                religioso del pueblo y destaca por su estilo colonial. Está ubicada alrededor de la
+                                plaza Espejo. La Estación Paso de los Andes, abierta en 1890 y cerrada en 1984,
+                                conectaba Mendoza con la ciudad de Los Andes en Chile. A pesar de un incendio en 1950
+                                que destruyó su estructura, su arquitectura de estilo inglés aún perdura y está siendo
+                                restaurada para poner un espacio cultural.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/chacras-de-coria.jpg" class="img-fluid rounded-end" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/img/termas-de-cacheuta.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">4. Termas de Cacheuta</h5>
+                            <p class="card-text">Las Termas de Cacheuta son un destino ideal para relajarse a solo 39 km
+                                de la Ciudad de Mendoza. Abierto todo el año, el Parque de Agua termal ofrece un acceso
+                                a más de 10 piscinas con agua 100% termal. Entre sus atractivos, se encuentran piletones
+                                de piedra, un río lento de 270 metros y una piscina de olas con un chorro de 10 metros
+                                de altura. El lugar cuenta con opciones para picnics en quinchos y parrillas.
+                                Para quienes buscan un momento de bienestar, en el Hotel & Spa Termas Cacheuta - también
+                                abierto todos los días del año -, está el Terma Spa que ofrece hidroterapias y
+                                tratamientos como fangoterapia y sauna seco, todos destinados a mayores de 14 años. Los
+                                visitantes pueden optar por el TermaSpa Full Day, que incluye un almuerzo buffet
+                                criollo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">5. Potrerillos</h5>
+                            <p class="card-text">Potrerillos se ubica al oeste de Mendoza y alberga el Dique
+                                Potrerillos, un lugar de gran belleza. En la localidad homónima se encuentran diversas
+                                villas de montaña, como Las Chacritas, El Carmelo y Vallecitos, que ofrecen casas de fin
+                                de semana y camping, así como opciones para practicar senderismo y escalada en roca. En
+                                Vallecitos, se halla la pista de esquí más antigua de la provincia y varios refugios de
+                                montaña. Desde allí, se accede a cerros importantes del Cordón del Plata, como El Plata
+                                y Rincón.
+                                A solo 14 km por la ruta 89 se encuentra Las Vegas, un pequeño pueblo en un valle
+                                arbolado donde predominan los álamos. También, a 10 km de Potrerillos, están los
+                                atractivos de El Salto: su cascada y el calvario que conduce al Cristo del Cerro.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/potrerillos.jpg" class="img-fluid rounded-end" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/img/pueblo-uspallata.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">6. Uspallata</h5>
+                            <p class="card-text">Uspallata es un pueblo con historia. Es pasada obligada para ir a
+                                Chile, y está ubicado en el departamento de Las Heras. Un lugar que ha sido también,
+                                parada en la ruta hacia el Parque Aconcagua y al Puente del Inca. Su recorrido ofrece
+                                una experiencia de paisajes únicos y coloridos.
+                                Allí se encuentran las Bóvedas Sanmartinianas, donde se puede explorar la historia
+                                vinculada a la expedición de San Martín y la importancia estratégica de la región.
+                                Luego, el Cerro de los Siete Colores asombra creando un espectáculo de diferentes tonos
+                                que parecen pintados a mano. Para los amantes del arte pueden visitar el Parque Marañon
+                                con sus magníficas esculturas. El Puente Picheuta, de origen colonial, contrasta la
+                                ingeniería humana con la naturaleza circundante, siendo un punto ideal para fotos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">7. Puente del Inca</h5>
+                            <p class="card-text">El Puente del Inca es un impresionante monumento natural en la
+                                provincia, y un área protegida cercana a la localidad homónima. Este fenómeno geológico
+                                es Patrimonio de la Humanidad por la UNESCO.
+                                Existen varias leyendas sobre su creación, siendo la más cautivadora la que narra la
+                                historia de un heredero del Imperio incaico. Afectado por una parálisis, su padre lo
+                                llevó desde el Cuzco en busca de cura. Para cruzar el río, los guerreros formaron un
+                                puente humano y, al mirar atrás, se petrificaron, dando origen al puente. Este asombroso
+                                lugar atrae a turistas que buscan disfrutar de su belleza.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="assets/img/puente-del-inca2.jpg" class="img-fluid rounded-end" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="card mb-3 border-0">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/img/parque-aconcagua2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">8. Parque Aconcagua</h5>
+                            <p class="card-text">Si buscás un destino que combine paisajes alucinantes con un toque de
+                                historia, el Parque Provincial Aconcagua es el lugar. A solo 185 kilómetros de Mendoza,
+                                este parque se extiende por 65.690 hectáreas y alberga el gigante de los Andes: el cerro
+                                Aconcagua, que se eleva a impresionantes 6.962 metros. ¡El pico más alto de todo
+                                occidental!
+                                Pero no solo se trata de escalar. Este lugar es una fiesta para los sentidos, con
+                                cumbres que superan los 5.000 metros y vistas que te van a dejar sin aliento. Hay
+                                senderos como el de Plaza de Mulas (4.370 m) y Confluencia (3.410 m), donde podés
+                                disfrutar de panorámicas increíbles sin tener que enfrentarte al frío extremo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjetas de tips-->
+
+        <div class="container d-none d-md-block">
+            <div class="container mb-5">
+                <h3>Tips para turistas</h3>
+            </div>
+
+            <div class="container my-2">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card text">
+                            <div class="card-body">
+                                <p class="card-text">Planificá tu viaje, ya que la época y las actividades son clave
+                                    para disfrutar tu estancia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">El sistema de colectivos es eficiente, pero para mayor libertad
+                                    conviene alquilar un auto.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Aunque muchos lugares aceptan tarjeta, lleva efectivo en pesos
+                                    argentinos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Visitá bodegas con degustación y aprendé sobre la historia del vino
+                                    mendocino.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Viajá en otoño o primavera, el clima es ideal y los paisajes se ven
+                                    más coloridos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text">Caminá por senderos del Parque Aconcagua y disfrutá vistas únicas
+                                    de la cordillera.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alerta -->
+        <div class="alert alert-info" role="alert">
+            ¡Preparate para pasarla bien!
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="text-center">
+                &copy; 2026 Mendoza. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
