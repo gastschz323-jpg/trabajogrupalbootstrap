@@ -1,0 +1,41 @@
+
+.main-historia {
+   
+    padding: 3%;
+    background-color: rgb(226, 224, 214);
+    border: 2px black solid;
+    border-radius: 0.3ch;
+}
+
+
+
+
+.display-5{
+    background-color: #c58864;
+    border: 0.09ch black solid;
+    border-radius: 0.3ch;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p{
+    background-color: #dac4b7;
+    border-radius: 1ch;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+
+
+}
+.fondoheader {
+    background-color: #c58864;
+    border: 2px black solid;
+
+
+}
+
+.display{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8ch;
+}
+
+.ul{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
