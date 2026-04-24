@@ -26,6 +26,7 @@ p {
 
 .card.border-0 {
     background-color: #fff;
+    border-radius: 10px !important;
     box-shadow: 0 3px 14px rgba(0,0,0,0.08);
     overflow: hidden;
 }
@@ -48,4 +49,9 @@ p {
     min-height: 200px;
     object-fit: cover;
 }
+
+.card.border-0:hover img {
+    transform: scale(1.04);
+}
+
 
