@@ -1,3 +1,78 @@
 .frase p {
   font-size: x-large;
 }
+
+.seccion-vino {
+  padding: 30px 15px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+.tarjeta-box {
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.tarjeta-box:hover {
+  transform: translateY(-8px);
+}
+
+.capa-oscura {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  transition: background-color 0.4s ease;
+}
+
+.tarjeta-box:hover .capa-oscura {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.info-contenido h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.texto-hover {
+  color: #ffffff;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+  visibility: hidden;
+}
+
+.tarjeta-box:hover .texto-hover {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.foto-1 {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/09/b1/1f/bodega-catena-zapata.jpg?w=600&h=400&s=1");
+}
+
+@media (max-width: 768px) {
+  .contenedor-grid {
+    grid-template-columns: 1fr;
+  }
+}
